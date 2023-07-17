@@ -1,0 +1,1 @@
+These exercises were meant as an introduction to CSS. While they weren't too difficult, they allowed me to put concepts into practice and demonstrate how to truly use CSS in conjunction with HTML.
