@@ -4,9 +4,6 @@
     background-color: #292930;
     color: #f5f7fa;
 }
-h1{
-    text-align: center;
-}
 ul{
     list-style-type: none;
     text-align: center;
@@ -21,13 +18,15 @@ li{
 .container{
     text-align: center;
 }
-.align{
-    text-align: center;
-}
 .down{
     width:800px;
     height: auto;
 }
 img{
     border-radius: 10%;
+    border: 5px solid #f5f7fa;
+}
+.link{
+    display: block;
+    margin-bottom: 25px;
 }

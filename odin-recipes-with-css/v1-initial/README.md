@@ -4,3 +4,5 @@ The last page served as a directory page, linking to the other three recipes.
 
 This served to help me put into practice the concepts learned in the last lessons using HTML and combine them all into one project.
 It was basic and foundational, but helped reinforce the concepts.
+
+The project was then later edited with use of a CSS style sheet.
