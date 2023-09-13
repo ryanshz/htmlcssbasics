@@ -1,0 +1,32 @@
+*{
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    padding: 5px;
+    background-color: #292930;
+    color: #f5f7fa;
+}
+ul{
+    list-style-type: none;
+    text-align: center;
+}
+li{
+    padding: 10px;
+}
+.one{
+    display: inline-block;
+    text-align: left;
+}
+.container{
+    text-align: center;
+}
+.down{
+    width:800px;
+    height: auto;
+}
+img{
+    border-radius: 10%;
+    border: 5px solid #f5f7fa;
+}
+.link{
+    display: block;
+    margin-bottom: 25px;
+}

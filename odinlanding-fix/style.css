@@ -1,0 +1,214 @@
+/*set base font, web height, remove margins*/
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0px;
+    height: 100vh;
+}
+
+/*Header styling, with .logo .headerlink .link children*/
+.header{ /*full header box, containing logo and links*/
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.logo{ /*styling on top left of header*/
+    text-decoration: none;
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.headerlinkcontainer{ /*container for 3 links on right side of header*/
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.headerlink{ /*actual <a> links held within headerlinkcontainer*/
+    text-decoration: none;
+    color: #e5e7eb;
+    size: 18px;
+}
+/*end of header styling*/
+
+/*intro styling*/
+.intro{
+    background-color: #1f2937;
+    padding: 100px 200px;
+    display: flex;
+    gap: 50px;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+    gap: 20px;
+    flex: 1;
+}
+
+.right{
+    flex: 1;
+}
+
+.leftheading{
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.leftpgh{
+    color:  #e5e7eb;
+    font-size: 18px;
+}
+
+.signupbuttontop{
+    text-decoration: none;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+.rightimage{
+    display: flex;
+    justify-content: center;
+    background-color: #808080;
+    color: #e5e7eb;
+    border-radius: 10px;
+    font-size: 24px;
+    padding: 150px 100px;
+}
+/*end of intro styling*/
+
+/*information styling*/
+.information{
+    background-color: #f9faf8;
+    padding: 20px 0px 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+.infoheading{
+    color: #1f2937;
+    font-size: 36px;
+    padding: 50px 0px 75px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+}
+
+.infoimages{
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 200px;
+}
+
+.image{
+    border: 4px solid #3882f6;
+    border-radius: 10px;
+    padding: 100px;
+    color: #3882f6;
+    font-size: 48px;
+}
+
+.infotexts{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 200px 0px;
+}
+
+.texts{
+    font-size: 18px;
+    color: #1f2937;
+}
+/*end of information styling*/
+
+/*quote styling*/
+.quote{
+    background-color: #e5e7eb;
+    padding: 200px 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 18px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.referenceq{
+    font-size: 30px;
+    font-weight: bolder;
+    color: #1f2937;
+    align-self: flex-end;
+}
+/*end of quote styling*/
+
+/*signup styling*/
+.signup{
+    background-color: #f9faf8;
+    padding: 100px 300px;
+}
+
+.buttonbox{
+    background-color: #3882f6;
+    padding: 50px 100px;
+    display: flex;
+    border-radius: 10px;
+}
+
+.leftbottom{
+    flex: 1.5;
+    padding-left: 20px;
+}
+
+.rightbottom{
+    display: flex;
+    flex: .5;
+    align-items: center;
+    justify-content: center;
+    padding-right: 20px;
+}
+
+.headingbottom{
+    color: #f9faf8;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.pghbottom{
+    color:  #e5e7eb;
+    font-size: 18px;
+}
+
+.signupbuttonbottom{
+    text-decoration: none;
+    border: 2px solid #e5e7eb;
+    border-radius: 10px;
+    color: #e5e7eb;
+    font-weight: bold;
+    padding: 10px 30px;
+}
+/*end of signup styling*/
+
+/*footer styling, with link to repo*/
+.footer{
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 10px;
+}
+
+.footnote{
+    color: #e5e7eb;
+    size: 18px;
+}
+/*end of footer styling*/
